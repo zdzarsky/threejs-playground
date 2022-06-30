@@ -1,0 +1,19 @@
+{
+  "name": "three-js-tutorial",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite --port 10101",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4",
+    "vite": "^2.9.9"
+  },
+  "dependencies": {
+    "3d-tiles-renderer": "^0.3.9",
+    "@types/three": "^0.140.0",
+    "three": "^0.140.2"
+  }
+}
